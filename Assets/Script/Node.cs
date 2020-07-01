@@ -16,11 +16,11 @@ namespace MySnake
             worldPosition = Vector3Int.zero;
         }
 
-        public Node(int _x, int _y)
+        public Node(int x, int y)
         {
-            x = _x;
-            y = _y;
-            worldPosition = new Vector3Int(_x, _y, 0);
+            this.x = x;
+            this.y = y;
+            worldPosition = new Vector3Int(x, y, 0);
         }
     }
 }

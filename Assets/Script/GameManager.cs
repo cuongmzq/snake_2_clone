@@ -243,6 +243,7 @@ namespace MySnake
                 {
                     eatFruit();
                     createPlayerTail(playerNodeList[playerNodeList.Count - 1].node.x, playerNodeList[playerNodeList.Count - 1].node.y);
+                    availableNode.Remove(playerNodeList[playerNodeList.Count - 1].node);
                 }
 
                 /*last tail position is the previous tail position.
